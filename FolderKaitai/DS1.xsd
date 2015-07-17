@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS1" targetNamespace="http://tempuri.org/DS1.xsd" xmlns:mstns="http://tempuri.org/DS1.xsd" xmlns="http://tempuri.org/DS1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS1" msprop:Generator_UserDSName="DS1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TFolderKaitai" msprop:Generator_TableClassName="TFolderKaitaiDataTable" msprop:Generator_TableVarName="tableTFolderKaitai" msprop:Generator_TablePropName="TFolderKaitai" msprop:Generator_RowDeletingName="TFolderKaitaiRowDeleting" msprop:Generator_RowChangingName="TFolderKaitaiRowChanging" msprop:Generator_RowEvHandlerName="TFolderKaitaiRowChangeEventHandler" msprop:Generator_RowDeletedName="TFolderKaitaiRowDeleted" msprop:Generator_UserTableName="TFolderKaitai" msprop:Generator_RowChangedName="TFolderKaitaiRowChanged" msprop:Generator_RowEvArgName="TFolderKaitaiRowChangeEvent" msprop:Generator_RowClassName="TFolderKaitaiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Dir" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="Dir" msprop:Generator_ColumnVarNameInTable="columnDir" msprop:Generator_ColumnPropNameInTable="DirColumn" msprop:Generator_UserColumnName="Dir" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="Pat" msprop:nullValue="_null" msprop:Generator_ColumnPropNameInRow="Pat" msprop:Generator_ColumnVarNameInTable="columnPat" msprop:Generator_ColumnPropNameInTable="PatColumn" msprop:Generator_UserColumnName="Pat" type="xs:string" default="" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
